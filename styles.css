@@ -1,6 +1,5 @@
 div {
   color: white;
-  background-color: black;
 }
   
 p {
@@ -9,8 +8,6 @@ p {
 
 body {
   font-family: 'Courier New', Courier, monospace;
-  background-color: pink;
-  color: crimson;
 }
 
 ol,
@@ -20,4 +17,27 @@ ul {
 
 a {
   color: black;
+}
+
+img {
+  border-radius: 10px;
+}
+
+.content {
+  color: crimson;
+  margin: 20px auto;
+  max-width: 800px;
+  text-align: center;
+  background-color: pink;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.list_container {
+  max-width: 350px;
+  margin: 0px auto;
+}
+
+li {
+  text-align: left;
 }
